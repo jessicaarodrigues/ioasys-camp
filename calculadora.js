@@ -1,3 +1,5 @@
+const prompt = require("prompt-sync")();
+
 let numero1 = prompt("Digite o primeiro número:")
 let numero2 = prompt("Digite o segundo número: ")
 let operacao = prompt("Digite a operação que deseja: +, -, * ou /")
