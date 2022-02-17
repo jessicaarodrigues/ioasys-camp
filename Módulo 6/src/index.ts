@@ -9,7 +9,7 @@ const human_02: Character = new Character({
     name:'Pablo', energy: 99, attack: 99, life: 80});
 
 const warrior_01: Warrior = new Warrior({
-    name:'Warrior_01', energy: 99, attack: 99, life: 80});
+    name:'Caleb', energy: 99, attack: 99, life: 80});
 
 human.trainAttack();
 human_02.trainDefense();
@@ -17,4 +17,4 @@ human_02.trainDefense();
 console.log('Human [Character]', human);
 console.log('Human [Character]', human_02);
 
-console.log('Warrior_01 [Warrior]', warrior_01);
+console.log('Warrior [Warrior]', warrior_01);

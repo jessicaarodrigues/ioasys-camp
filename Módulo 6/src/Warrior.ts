@@ -1,3 +1,5 @@
+import Character from "./Character";
+
 interface IParams {
     name: string;
     energy: number;
@@ -9,8 +11,8 @@ class Warrior extends Character{
     armor: number;
     force: number;
     
-    constructor(name: string, energy: number, life: number, attack: number) {
-        super(name, energy, life, attack);
+    constructor({name, energy, life, attack}: IParams) {
+        super({name, energy, life, attack});
 
         this.armor = 80;
         this.force = 100;
